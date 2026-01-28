@@ -130,3 +130,16 @@ img:hover {
 	color: white;
 	font-size: 1.3em;
 }
+
+#linkedin {
+	position: absolute;
+	top: 92vh;
+	left: 92vw;
+	right: 0;
+	bottom: 0;
+}
+
+#linkedin img {
+	height: 2em;
+	width: 2em;
+}
