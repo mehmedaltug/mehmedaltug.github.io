@@ -89,6 +89,8 @@ img:hover {
 	text-align: center;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
+	width: 100%;
+	height: 100%;
 }
 
 #fade {
@@ -142,4 +144,78 @@ img:hover {
 #linkedin img {
 	height: 2em;
 	width: 2em;
+}
+
+#vesika {
+	height: 10em; 
+	width: 9em;
+}
+
+#top-text {
+	font-size: 1.2em;
+}
+
+@media (max-width: 1024px) {
+	#top-text {
+		font-size: 0.9em;
+	}
+	#top-bar {
+		bottom: 65vh;
+	}
+	#content-bar {
+		top: 35vh;
+		margin: 1em;
+		margin-bottom: 3em;
+	}
+	#vesika {
+		height: 6em;
+		width: 5.3em;
+	}
+	#fade {
+		top: 35vh;
+	}
+	img {
+		height: 2em;
+		width: 2em;
+	}
+	.card {
+		font-size: 0.8em;
+		padding: 0.2em;
+	}
+	#linkedin {
+		top: 88vh;
+	}
+}
+
+@media (max-width: 600px) {
+	#top-text {
+		font-size: 1.2em;
+	}
+	#top-bar {
+		bottom: 70vh;
+	}
+	img {
+		height: 2em;
+		width: 2em;
+	}
+	#vesika {
+		height: 8em;
+		width: 7em;
+	}
+	#content-bar {
+		margin: 1em;
+		margin-bottom: 3em;
+		top: 30vh;
+	}
+	.card {
+		font-size: 0.8em;
+		padding: 0.2em;
+	}
+	#linkedin {
+		left: 88vw;
+		top: 92vh;
+	}
+	#fade {
+		top: 30vh;
+	}
 }

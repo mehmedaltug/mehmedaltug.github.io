@@ -28,7 +28,7 @@ const projects = [
 	[
 		card_generator("https://github.com/mehmedaltug/tabletizer-desktop", "Tabletizer Desktop", "Desktop part of the Tabletizer that handles mouse movements, local server and device communications."),
 		card_generator("https://github.com/mehmedaltug/tabletizer-mobile", "Tabletizer Mobile", "Mobile part of the Tabletizer that handles connection to servers and input translation."),
-		card_generator("https://github.com/mehmedaltug/expo-baseline", "EXPO Baseline", "A pre-configured EXPO+Nativewind project that has all the necessary tools to start developing mobile apps.")
+		card_generator("https://github.com/mehmedaltug/expo-baseline", "EXPO Baseline", "A pre configured EXPO Nativewind project that has all the necessary tools to start developing mobile apps.")
 	],
 	[
 		card_generator("https://github.com/mehmedaltug/Simpasm", "Simpasm", "A custom language compiler that makes it easy to write assembly. Compiles to assembly instructions."),
