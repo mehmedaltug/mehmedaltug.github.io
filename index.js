@@ -16,7 +16,7 @@ const content_bar = document.getElementById("content-bar")
 const projects = [
 	[
 		card_generator(null, "Tictactoe Bot", "A mini-max bot that can perfectly play tictactoe. Does implement aplha-beta pruning."),
-		card_generator(null, "Perusal Bot", "A bot that reads the screen, re-fortmats the read text and writes the changed version to bypass filters."),
+		card_generator("https://github.com/mehmedaltug/perusal-bot", "Perusal Bot", "A bot that reads the screen, re-fortmats the read text and writes the changed version to bypass filters."),
 		card_generator("https://github.com/mehmedaltug/wordle-bot", "Wordle Bot", "A bot that can find today's wordle in least steps. Has a database of words and an algorithm to eliminate reduntant words.")
 	],
 	[
@@ -59,4 +59,5 @@ async function select_icon(id){
 			icon.className = "img-deactive";
 	}
 	fade.className = "fade-deactive";
+
 }
