@@ -187,6 +187,12 @@ img:hover {
 	}
 }
 
+@media (max-height: 600px) {
+	p {
+		font-size: 0.8em;
+	}
+}
+
 @media (max-width: 600px) {
 	#top-text {
 		font-size: 1.2em;
