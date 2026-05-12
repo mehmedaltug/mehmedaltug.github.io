@@ -20,7 +20,8 @@ const projects = [
 		card_generator("https://github.com/mehmedaltug/wordle-bot", "Wordle Bot", "A bot that can find today's wordle in least steps. Has a database of words and an algorithm to eliminate reduntant words.")
 	],
 	[
-		card_generator("https://github.com/mehmedaltug/simple-cpu", "Simple CPU", "A simple 8 register (plus input), 4 operation, 4 cycle cpu that can perform addition and subtraction.")
+		card_generator("https://github.com/mehmedaltug/simple-cpu", "Simple CPU", "A simple 8 register (plus input), 4 operation, 4 cycle cpu that can perform addition and subtraction."),
+		card_generator("https://github.com/mehmedaltug/aem-os", "AEM OS", "A developer focused, pre-setup, opinionated linux distro that comes with linuxbrew, flatpak and common dev tools.")
 	],
 	[
 		card_generator("https://github.com/mehmedaltug/zed-windows-portable", "Zed Portable Launcher", "A launcher program to automatically start Zed Editor in a portable manner.")
