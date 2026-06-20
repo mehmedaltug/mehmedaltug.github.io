@@ -67,6 +67,11 @@ const projects = [
       "Zed Portable Launcher",
       "A launcher program to automatically start Zed Editor in a portable manner.",
     ),
+    card_generator(
+      "https://github.com/cumulonimbush/Optistella-Rust-nbody-sim",
+      "Rust N-Body Simulation",
+      "An N-Body simulation that utilizes the Barnes-Hut algorithm. Implemeted using Rust+Bevy",
+    ),
   ],
   [
     card_generator(
