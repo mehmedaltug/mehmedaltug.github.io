@@ -92,7 +92,7 @@ img:hover {
     top: 30vh;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 0vh;
     position: absolute;
     background-color: #181926;
     transition: 0.5s;
