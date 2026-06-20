@@ -118,11 +118,7 @@ const projects = [
 
 async function select_icon(id) {
   fade.className = "fade-active";
-  if (is_mobile) {
-    let len = projects[id].length;
-    let dist = -((len - (len % 2)) / 2) * 6 - 6;
-    fade.style.bottom = dist.toString() + "vh";
-  }
+
   await new Promise((promise) => setTimeout(promise, 800));
 
   let content = "";
@@ -138,4 +134,13 @@ async function select_icon(id) {
     else icon.className = "img-deactive";
   }
   fade.className = "fade-deactive";
+  if (is_mobile) {
+    let len = projects[id].length;
+    let dist = 33 - ((len - (len % 2)) / 2 + 1) * 30 - 3;
+    fade.style.bottom = dist.toString() + "vh";
+  } else {
+    let len = projects[id].length;
+    let dist = 33 - ((len - (len % 3)) / 3 + 1) * 30 - 3;
+    fade.style.bottom = dist.toString() + "vh";
+  }
 }
