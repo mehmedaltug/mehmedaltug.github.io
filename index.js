@@ -128,6 +128,13 @@ const projects_order = [
   even_lower_level
 ];
 
+const MAINTENANCE_MODE = true;
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (MAINTENANCE_MODE)
+    window.location.href = "https://mehmedaltug.github.io/maintenance.html";
+})
+
 async function select_icon(id) {
   fade.className = "fade-active";
 
