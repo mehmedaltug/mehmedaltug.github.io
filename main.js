@@ -45,7 +45,7 @@ const projects = [
   ],
   [
     "mehmedaltug/tabletizer-remake",
-    "Tabletizer Desktop",
+    "Tabletizer",
     "Remake of my proof-of-concept project Tabletizer! Allows using old tablets or phones as graphic tablets. Remake utilizes Expo and PyWebview+PyInstaller",
   ],
   [
